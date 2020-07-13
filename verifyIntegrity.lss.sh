@@ -1,0 +1,1 @@
+find `pwd` -iname "*" | while read line; do sha256sum $line >> shasum.lss.log; done
